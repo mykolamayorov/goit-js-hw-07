@@ -12,3 +12,191 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* task-1 */
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#categories {
+  max-width: 440px;
+}
+
+.item {
+  padding: 16px;
+  margin: 24px;
+  background-color: #f6f6fe;
+}
+
+.item h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item ul li {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+/* task-2 */
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
+  max-width: 1500px;
+}
+
+.gallery img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* task-3 */
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-left: 16px;
+  height: 40px;
+  width: 360px;
+}
+#name-input input:hover {
+  outline: none;
+  border: 1px solid #000000;
+}
+#name-input input:active {
+  outline: none;
+  border: 1px solid #808080;
+}
+#name-input input:focus {
+  outline: none;
+  border: 1px solid #000000;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* task-4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 408px;
+}
+button[type="submit"] {
+  background-color: #4e75ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  width: 86px;
+}
+.login-form label {
+  display: flex;
+  flex-direction: column;
+}
+.login-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+  width: 360px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+.login-form label:last-of-type {
+  margin-bottom: 16px;
+}
+
+/* task-5 */
+
+.change-color {
+  background-color: #4e75ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  width: 148px;
+}
+
+/* task-6 */
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 32px;
+  background-color: #f6f6fe;
+  max-width: 786px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+#controls input {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  text-align: center;
+}
+#controls input:hover {
+  outline: none;
+  border: 1px solid #000000;
+}
+#controls input:active {
+  outline: none;
+  border: 1px solid #808080;
+}
+#controls input:focus {
+  outline: none;
+  border: 1px solid #000000;
+}
+#controls button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+#controls [data-create] {
+  background-color: #4e75ff;
+}
+#controls [data-create]:hover {
+  background-color: #6c8cff;
+}
+#controls [data-destroy] {
+  background-color: #ff4e4e;
+}
+#controls [data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  max-width: 786px;
+  min-height: 154px;
+  background-color: #f6f6fe;
+  padding: 32px 28px 32px 32px;
+}
